@@ -1,0 +1,551 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+html, body {
+
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+
+}
+
+br {
+}
+
+div {
+  text-align: center;
+}
+
+#ClassificationSection {
+  position: sticky;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+
+.ClassificationDiv {
+  display:inline-block;
+  margin-top: 0;
+
+
+}
+#ItemClassification {
+  text-align: center;
+  position: relative;
+  bottom: 76px;
+}
+
+#Colourclassification {
+  position: relative;
+}
+
+#PriceRange {
+  position: relative;
+  bottom: 335px;
+}
+
+#OnlineAvailability {
+  position: relative;
+  bottom: 336px;
+}
+
+#MatchingProducts {
+  position: relative;
+  bottom: 336px;
+  margin-left: 180px;
+
+}
+
+#MatchingProducts h2 {
+  background: white;
+}
+
+#ProductButtons {
+  position: relative;
+  bottom: 336px;
+  cursor: pointer;
+}
+
+#ProductButtons button {
+  background: white;
+  position: relative;
+  padding: 5px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#B1 {
+  cursor: pointer;
+  border: none;
+  position: relative;
+  left: 5px;
+
+}
+
+#B2 {
+  cursor: pointer;
+  border: none;
+}
+
+#B1:hover {
+  border: 1px solid black;
+}
+
+#B2:hover {
+  border: 1px solid black;
+}
+
+
+
+
+
+
+.ClassificationDiv  ul li{
+  display: block;
+  list-style: none;
+
+
+}
+
+.ClassificationDiv h2 {
+  font-size: 14px;
+  font-weight: lighter;
+  display: inline-block;
+  border: 1px solid white;
+  background-color: rgb(244, 244, 244);
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+
+.image {
+  background-image: url("ProjectImages/BackgroundImage(1).jpg");
+}
+
+ol li {
+  font-size: 20px;
+}
+
+ul{
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.OrderH {
+  font-size: 12px;
+}
+
+
+li {
+  color: black;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+
+}
+
+.Contuct {
+  opacity: 70%;
+  text-align: center;
+}
+
+.uppercaseli li{
+  text-transform: uppercase;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.Contuct li {
+  font-size: 15px;
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+}
+
+table {
+  margin: 20px auto;
+}
+
+thead th {
+  background-color: cornflowerblue;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+tr {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+
+}
+
+th {
+  border: 2px solid black;
+  z-index: 10;
+}
+th, td {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  padding: 15px 10px 10px 15px;
+  position: sticky;
+  top: 0px;
+}
+
+td {
+  font-size: 20px;
+  border: 2px inset lightblue;
+}
+#3DDTD {
+  display: none;
+
+}
+
+.Head {
+  border: 2px inset lightblue;
+}
+
+.Order td {
+  border: 2px inset black;
+}
+
+.TableRow {
+
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  padding: 15px;
+}
+
+#Top\|New {
+  font-family: cursive;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  padding: 15px;
+}
+
+#OnAvH2 {
+  font-size: 13px;
+  background-color: white;
+  opacity: 50%;
+  position: relative;
+  bottom: 5px;
+}
+
+.NavHead {
+  display: inline-block;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 15px;
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding: 15px;
+}
+#SearchSummer {
+  opacity: 50%;
+}
+
+#SearchKitechen {
+  opacity: 50%;
+}
+
+img {
+  width: 800px;
+  height: 800px;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin: 10px auto;
+  display: block;
+}
+
+img.SupportImg {
+  width: 1300px;
+  height: 900px;
+}
+
+img.MagazineImg {
+  width: 800px;
+  height: 1200px;
+  margin-bottom: 0px;
+}
+
+
+img.LabImg {
+  width: 1400px;
+  height: 900px;
+  filter: drop-Shadow(1px 1px 1px black);
+}
+
+#IkeaSvg\ a {
+  margin: auto;
+  width: 110px;
+  display: inline-block;
+}
+
+#IkeaSvg\ img {
+  height: auto;
+  horiz-align: right;
+  display: block;
+  border: none;
+  width: 100%;
+  border-radius: 0;
+}
+
+
+figcaption {
+  font-family: "Brush Script MT";
+  font-size: 12px;
+  font-weight: 400;
+  padding: 15px;
+}
+
+figcaption#BFFCap {
+  transform: rotate(-10deg);
+  position: relative;
+  left: 1900px;
+  bottom: 220px;
+}
+
+figcaption#MagazineCap {
+  text-align: center;
+
+}
+
+figcaption#SupportCap {
+  position: relative;
+  left: 1830px;
+  bottom: 20px;
+}
+
+video {
+  margin: 0 auto;
+
+}
+
+iframe {
+
+  height: 900px;
+  margin:auto;
+  margin-top: 200px;
+  border: 1px solid white;
+  border-radius: 15px;
+  display: block;
+  filter: drop-shadow(1px 1px 1px black);
+}
+.video-audio {
+  width: 1400px;
+}
+
+audio {
+  filter: drop-shadow(1px 1px 1px black);
+  margin: auto;
+  display: block;
+
+
+}
+
+a {
+  color: black;
+  font-weight: normal;
+  text-align: center;
+  padding: 15px;
+  margin: auto;
+  display: inline-block;
+}
+
+a:hover {
+  color: blue;
+}
+
+#ClearAnchor {
+  cursor: pointer;
+  position: relative;
+  left: 1680px;
+}
+
+button {}
+
+.RButton {
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 15px 40px;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+  position: relative;
+  color: #ffffff;
+  background: #000000;
+
+}
+
+.RButton::after, .RButton::before {
+  content: "";
+  position: absolute;
+  opacity: 0.3;
+  background: #000000;
+  border-radius: inherit;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+
+.RButton:hover {
+  transform: translate(-12px, -12px);
+}
+
+.RButton:hover::after {
+  transform: translate(6px, 6px);
+}
+
+.RButton:hover::before {
+  transform: translate(12px, 12px);
+}
+
+.RButton:hover {
+  background-color: black;
+}
+.TopNavButtons {
+  position: relative;
+  bottom: 32px;
+  display: inline-block;
+  border: 1px solid white;
+  background: white;
+  cursor: pointer;
+}
+
+#MenuButton {
+  position: relative;
+  bottom: 33px;
+  border: 1px solid black;
+}
+
+
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 15px;
+}
+
+nav {
+
+}
+
+#TopNav {
+  margin: auto;
+  width: 100%;
+  display: inline-block;
+}
+
+input {
+
+}
+
+#TopSearch {
+  margin-left: 100px ;
+  height: 44px;
+  font-size: 13px;
+  width: 500px;
+  letter-spacing: -0.02em;
+  background-image: initial;
+  background: transparent;
+  padding: 0 63px 0 60px;
+  border-radius: 30px;
+  border: 1px solid #01559A;
+  position: relative;
+  bottom: 32px;
+}
+
+.Slider {
+
+}
+
+.Description {
+  font-size: 18px;
+}
+
+.Toggle {
+  --width: 40px;
+  --height: calc(var(--width) / 2);
+  --border-radius: calc(var(--height) / 2) ;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.Toggle__input {
+  display: none;
+}
+
+.Toggle__fill {
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+  border-radius: var(--border-radius);
+  background: #dddddd;
+  transition: background 0.2s;
+}
+
+.Toggle__input:checked ~ .Toggle__fill {
+  background: cornflowerblue;
+}
+
+.Toggle__fill::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--height);
+  width: var(--height);
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: var(--border-radius);
+  transition: transform 0.2s;
+}
+
+.Toggle__input:checked ~ .Toggle__fill::after {
+  transform: translateX(var(--height));
+}
+
