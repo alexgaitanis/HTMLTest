@@ -529,7 +529,7 @@ input {
 }
 
 .Toggle__input:checked ~ .Toggle__fill {
-  background: rgba(100, 107, 237, 0.72);
+  background: rgb(93, 103, 239);
 }
 
 .Toggle__fill::after {
